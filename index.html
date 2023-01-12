@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="myPic"></div>
+    <hr>
+    <h1 id="cal">Calculator</h1>
+    <form action="">
+        <label>กรุณากรอกตัวเลข : <input type="text" id="num1"></label>
+        <br>
+        <label>กรุณากรอกตัวเลข : <input type="text" id="num2"></label>
+        <br><br>
+        getElementById :
+        <br>
+        <button type="button" id="plus">+</button>
+        <button type="button" id="minus">-</button>
+        <button type="button" id="multiply">x</button>
+        <button type="button" id="divide">÷</button>
+        <br>
+        Function :
+        <br>
+        <button type="button" class="buttonStyle" onclick="plusFunc()">+</button>
+        <button type="button" class="buttonStyle" onclick="minusFunc()">-</button>
+        <button type="button" class="buttonStyle" onclick="multiplyFunc()">x</button>
+        <button type="button" class="buttonStyle" onclick="divideFunc()">÷</button>
+        <br><br>
+        <button type="button" onclick="myalert()">Alert Test</button>
+    </form>
+
+    <p id="result">Result : </p>
+
+    <!-- ------------------------------------------------------------------------------------------------- -->
+    <hr>
+    <h1 id="bmiCal">คำนวณ BMI</h1>
+    <form action="">
+        น้ำหนัก: <input type="text" id="weight" placeholder="กิโลกรัม"><br><br>
+        ส่วนสูง: <input type="text" id="height" placeholder="เซนติเมตร"><br><br>
+        <button type="button" onclick="calculateBMI()">คำนวณ BMI</button>
+    </form>
+
+    <p>BMI: <span id="bmi"></span></p>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

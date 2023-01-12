@@ -1,0 +1,31 @@
+#cal {
+    text-align: center;
+    color: brown;
+}
+
+#bmiCal{
+    color:chocolate;
+}
+
+#plus,
+#minus,
+#multiply,
+#divide {
+    background-color: blueviolet;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    width: 30px;
+}
+
+.buttonStyle{
+    background-color:darkcyan;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    width: 30px;
+}
