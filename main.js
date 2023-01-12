@@ -53,7 +53,7 @@ function divideFunc() {
 }
 
 
-function calculateBMI() {
+function calBMI() {
     var weight = document.getElementById("weight").value;
     var height = document.getElementById("height").value;
     var bmi = weight / ((height / 100) * (height / 100));
